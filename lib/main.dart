@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'Day-1/appbar_learn.dart';
-import 'Day-1/button_learn.dart';
-import 'Day-1/color_learn.dart';
-import 'Day-1/container_sizedbox_learn_view.dart';
-import 'Day-1/icon_learn.dart';
-import 'Day-1/scaffold_learn.dart';
-import 'Day-1/text_learn_view.dart';
+import 'Day-1/card_learn.dart';
+import 'Day-1/image_learn.dart';
+import 'Day-1/padding_learn.dart';
+import 'Day-1/stateless_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,10 +20,16 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark().copyWith(
             progressIndicatorTheme:
                 const ProgressIndicatorThemeData(color: Colors.white),
+            cardTheme: CardTheme(
+                shape:
+                    // Tum kartlarimiz ozel shape vermedigimiz surece buradaki shape'i kullanir
+                    RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(25)),
+                color: Colors.white),
             appBarTheme: const AppBarTheme(
                 // centerTitle: true,
                 backgroundColor: Colors.transparent,
                 titleTextStyle: TextStyle(color: Colors.black))),
-        home: ColorLearnView());
+        home: const ImageLearnView());
   }
 }

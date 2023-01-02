@@ -3,6 +3,7 @@ import 'Day-1/card_learn.dart';
 import 'Day-1/image_learn.dart';
 import 'Day-1/padding_learn.dart';
 import 'Day-1/stateless_learn.dart';
+import 'Day-2/note_demos_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +31,6 @@ class MyApp extends StatelessWidget {
                 // centerTitle: true,
                 backgroundColor: Colors.transparent,
                 titleTextStyle: TextStyle(color: Colors.black))),
-        home: const ImageLearnView());
+        home: const NoteView());
   }
 }

@@ -1,4 +1,4 @@
-# one_hundred_days_of_flutter
+# 100 Days of Flutter
 
 In this repo, there are studies made with the videos of the series called "Flutter from the Basics to the Top" on the HardwareAndro channel.
 

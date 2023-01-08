@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Day-5/page_view_learn.dart';
 import 'Day-5/statefull_learn.dart';
 
 void main() {
@@ -27,6 +28,6 @@ class MyApp extends StatelessWidget {
                 // centerTitle: true,
                 backgroundColor: Colors.transparent,
                 titleTextStyle: TextStyle(color: Colors.white))),
-        home: const StatefullLearnView());
+        home: const PageViewLearn());
   }
 }

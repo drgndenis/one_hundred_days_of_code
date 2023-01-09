@@ -14,4 +14,4 @@ Day 4 → Indicator widget, List Tile widget, Column and Row, Responsive Design,
 
 Day 5 → Statefull and SetState, PageView, Lifecycle, InitState, didChangeDependencies, didUpdateWidget, dispose — — 8.1.2023
 
-Day 6 →
+Day 6 → Textfield and Textfield's properties, Demo Color Statefull, Demo Lifecycle — — 9.1.2023

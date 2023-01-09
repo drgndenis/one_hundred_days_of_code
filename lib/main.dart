@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Day-5/page_view_learn.dart';
-import 'Day-5/statefull_learn.dart';
-import 'Day-5/statefull_life_cycle_learn.dart';
+import 'Day-6/text_field_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,12 +23,15 @@ class MyApp extends StatelessWidget {
                   RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(25)),
             ),
+            inputDecorationTheme: const InputDecorationTheme(
+                filled: true,
+                fillColor: Colors.transparent,
+                iconColor: Colors.red,
+                border: OutlineInputBorder()),
             appBarTheme: const AppBarTheme(
-                // centerTitle: true,
+                centerTitle: true,
                 backgroundColor: Colors.transparent,
                 titleTextStyle: TextStyle(color: Colors.white))),
-        home: const StatefullLifeCyleLearn(
-          message: 'deniss',
-        ));
+        home: const TextfieldLearn());
   }
 }

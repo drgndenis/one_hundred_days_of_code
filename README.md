@@ -1,4 +1,4 @@
-# 100 Days of Flutter
+# 100 Days of Code
 
 In this repo, there are studies made with the videos of the series called "Flutter from the Basics to the Top" on the HardwareAndro channel.
 
@@ -15,3 +15,5 @@ Day 4 → Indicator widget, List Tile widget, Column and Row, Responsive Design,
 Day 5 → Statefull and SetState, PageView, Lifecycle, InitState, didChangeDependencies, didUpdateWidget, dispose — — 8.1.2023
 
 Day 6 → Textfield and Textfield's properties, Demo Color Statefull, Demo Lifecycle — — 9.1.2023
+
+Day 7 → Debug  — — 10.1.2023

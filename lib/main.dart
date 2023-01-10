@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Day-6/color_demos_view.dart';
-import 'Day-6/color_lifecycle_view.dart';
+import 'package:one_hundred_days_of_flutter/Day-7/my_collections_demo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,6 +22,7 @@ class MyApp extends StatelessWidget {
                   // Tum kartlarimiz ozel shape vermedigimiz surece buradaki shape'i kullanir
                   RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(25)),
+              color: ColorsUtilty().white70,
             ),
             inputDecorationTheme: const InputDecorationTheme(
                 filled: true,
@@ -33,6 +33,6 @@ class MyApp extends StatelessWidget {
                 centerTitle: true,
                 backgroundColor: Colors.transparent,
                 titleTextStyle: TextStyle(color: Colors.white))),
-        home: const ColorLifeCycleView());
+        home: const MyCollections());
   }
 }

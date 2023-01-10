@@ -11,11 +11,14 @@ class ColorButtonView extends StatefulWidget {
 
 class _ColorButtonViewState extends State<ColorButtonView> {
   Color? _backgroundColor;
+  final redText = 'Red';
+  final yellowText = 'Yellow';
+  final blueText = 'Blue';
 
   @override
   void initState() {
     super.initState();
-    _backgroundColor = widget.initialColor ?? Colors.transparent;
+    _backgroundColor = widget.initialColor ?? ProjectColors().transparent;
   }
 
   void changeBackgroundColor(Color color) {
@@ -37,25 +40,25 @@ class _ColorButtonViewState extends State<ColorButtonView> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: _backgroundColor,
-      bottomNavigationBar:
-          BottomNavigationBar(onTap: _colorOnTap, items: const [
+      bottomNavigationBar: BottomNavigationBar(onTap: _colorOnTap, items: [
         BottomNavigationBarItem(
-            icon: _ColorContainer(color: Colors.red), label: 'Red'),
+            icon: _ColorContainer(color: ProjectColors().red), label: redText),
         BottomNavigationBarItem(
-            icon: _ColorContainer(color: Colors.yellow), label: 'Yellow'),
+            icon: _ColorContainer(color: ProjectColors().yellow),
+            label: yellowText),
         BottomNavigationBarItem(
-            icon: _ColorContainer(color: Colors.blue), label: 'Blue')
+            icon: _ColorContainer(color: ProjectColors().blue), label: blueText)
       ]),
     );
   }
 
   void _colorOnTap(int value) {
     if (value == _MyColors.red.index) {
-      changeBackgroundColor(Colors.red);
+      changeBackgroundColor(ProjectColors().red);
     } else if (value == _MyColors.yellow.index) {
-      changeBackgroundColor(Colors.yellow);
+      changeBackgroundColor(ProjectColors().yellow);
     } else if (value == _MyColors.blue.index) {
-      changeBackgroundColor(Colors.blue);
+      changeBackgroundColor(ProjectColors().blue);
     }
   }
 }
@@ -68,13 +71,21 @@ class _ColorContainer extends StatelessWidget {
     required this.color,
   }) : super(key: key);
   final Color color;
+  final double customWidth = 10;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       color: color,
-      width: 10,
-      height: 10,
+      width: customWidth,
+      height: customWidth,
     );
   }
+}
+
+class ProjectColors {
+  final Color red = Colors.red;
+  final Color yellow = Colors.yellow;
+  final Color blue = Colors.blue;
+  final Color transparent = Colors.transparent;
 }

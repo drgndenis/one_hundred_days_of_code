@@ -4,6 +4,8 @@ In this repo, there are studies made with the videos of the series called "Flutt
 
 ## A Day by Day to Become Mobile Developer
 
+Flutter Days
+
 Day 1 → Text, Material App, Container and SizedBox, Scoffold, Buttons, Appbar, Icon, Color, StatelessWidget, Padding, Card, Image — — 1.1.2023
 
 Day 2 → Note Demo was made with what was learned. — — 2.1.2023

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:one_hundred_days_of_flutter/Day-7/my_collections_demo.dart';
+import 'Day-7/my_collections_demo.dart';
+import 'Day-8/navigation_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,6 +34,6 @@ class MyApp extends StatelessWidget {
                 centerTitle: true,
                 backgroundColor: Colors.transparent,
                 titleTextStyle: TextStyle(color: Colors.white))),
-        home: const MyCollections());
+        home: const NavigationView());
   }
 }

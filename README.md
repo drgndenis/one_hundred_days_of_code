@@ -18,6 +18,6 @@ Day 5 → Statefull and SetState, PageView, Lifecycle, InitState, didChangeDepen
 
 Day 6 → Textfield and Textfield's properties, Demo Color Statefull, Demo Lifecycle — — 9.1.2023
 
-Day 7 → Debug  — — 10.1.2023
+Day 7 → Debug, ListView, ListViewBuilder, Demo ListViewBuilder  — — 10.1.2023
 
 Day 8 → Navigation, Navigation's Details — — 11.1.2023

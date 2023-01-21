@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:one_hundred_days_of_flutter/Day-6/text_field_learn.dart';
 import 'Day-7/my_collections_demo.dart';
 import 'Day-8/navigation_learn.dart';
+import 'Day-9/model_learn_view.dart';
 import 'Day-9/tab_learn.dart';
 
 void main() {
@@ -51,6 +52,6 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.transparent,
           ),
         ),
-        home: const TabLearn());
+        home: const ModelLearnView());
   }
 }

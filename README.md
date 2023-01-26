@@ -21,3 +21,7 @@ Day 6 → Textfield and Textfield's properties, Demo Color Statefull, Demo Lifec
 Day 7 → Debug, ListView, ListViewBuilder, Demo ListViewBuilder  — — 10.1.2023
 
 Day 8 → Navigation, Navigation's Details — — 11.1.2023
+
+Day 9 → Tab & BottomAppBar, Initialize & Model etc, What is service?, Json, Service structure, Postman — — 21.1.2023
+
+Day 10 → ServiceLearn, Dio, Get(Read), Post(Create), PostService Class, Try Catch, Update, Delete — — 26.1.2023

@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import 'package:one_hundred_days_of_flutter/Day-6/text_field_learn.dart';
-import 'Day-7/my_collections_demo.dart';
-import 'Day-8/navigation_learn.dart';
-import 'Day-9/model_learn_view.dart';
-import 'Day-9/tab_learn.dart';
+import 'Day-10/service/service_learn_view.dart';
+import 'Day-10/service/service_post_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +32,7 @@ class MyApp extends StatelessWidget {
             shape:
                 // Tum kartlarimiz ozel shape vermedigimiz surece buradaki shape'i kullanir
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
-            color: ColorsUtilty().white70,
+            color: Colors.deepPurpleAccent,
           ),
           inputDecorationTheme: const InputDecorationTheme(
               filled: true,
@@ -52,6 +48,6 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.transparent,
           ),
         ),
-        home: const ModelLearnView());
+        home: const ServiceLearn());
   }
 }

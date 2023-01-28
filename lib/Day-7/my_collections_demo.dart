@@ -25,7 +25,7 @@ class _MyCollectionsState extends State<MyCollections> {
       appBar: AppBar(
         title: Text(
           LanguageItems.appBarTitle,
-          style: Theme.of(context).textTheme.headline6,
+          style: Theme.of(context).textTheme.titleSmall,
         ),
         leading: Container(
           color: ColorsUtilty().white70,
@@ -75,11 +75,14 @@ class _CategoryCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(_model.title,
-                        style: Theme.of(context).textTheme.headline5?.copyWith(
-                            color: ColorsUtilty().black,
-                            fontWeight: FontWeight.bold)),
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineSmall
+                            ?.copyWith(
+                                color: ColorsUtilty().black,
+                                fontWeight: FontWeight.bold)),
                     Text('${_model.price} ETH',
-                        style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                        style: Theme.of(context).textTheme.titleSmall?.copyWith(
                             color: ColorsUtilty().black,
                             fontWeight: FontWeight.bold))
                   ],

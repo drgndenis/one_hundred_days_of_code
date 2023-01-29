@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:one_hundred_days_of_flutter/Day-11/theme/light_theme.dart';
-import 'Day-11/package_learn_view.dart';
+import 'Day-11/theme_learn_view.dart';
+import 'Day-12/widget_size_enum.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,6 +49,6 @@ class MyApp extends StatelessWidget {
         //     backgroundColor: Colors.transparent,
         //   ),
         // ),
-        home: const PackageLearnView());
+        home: const ThemeLearnView());
   }
 }

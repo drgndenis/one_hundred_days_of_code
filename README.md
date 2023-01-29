@@ -25,3 +25,7 @@ Day 8 → Navigation, Navigation's Details — — 11.1.2023
 Day 9 → Tab & BottomAppBar, Initialize & Model etc, What is service?, Json, Service structure, Postman — — 21.1.2023
 
 Day 10 → ServiceLearn, Dio, Get(Read), Post(Create), PostService Class, Try Catch, Update, Delete — — 26.1.2023
+
+Day 11 → Pubdev packs, Use of packages and what is the mixin?, Package, Theme — — 28.1.2023
+
+Day 12 →  Theme continuation, enum - extension relationship, Textfield, Animate example — — 29.1.2023

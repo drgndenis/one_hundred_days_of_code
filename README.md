@@ -29,3 +29,5 @@ Day 10 → ServiceLearn, Dio, Get(Read), Post(Create), PostService Class, Try Ca
 Day 11 → Pubdev packs, Use of packages and what is the mixin?, Package, Theme — — 28.1.2023
 
 Day 12 →  Theme continuation, enum - extension relationship, Textfield, Animate example — — 29.1.2023
+
+Day 13 → Image enum - extension, Animated Learn — — 1.2.2023

@@ -25,7 +25,7 @@ class LightTheme {
         fillColor: MaterialStateProperty.all(_LightColors()._blueAccent),
       ),
       floatingActionButtonTheme: FloatingActionButtonThemeData(
-          backgroundColor: _lightColor._textBackground),
+          backgroundColor: _lightColor._floatingActionButton),
       buttonTheme: ButtonThemeData(
         colorScheme: ColorScheme.light(
           onPrimary: _LightColors()._blueAccent,
@@ -48,6 +48,7 @@ class _LightColors {
   final Color _titleMedium = const Color.fromARGB(255, 226, 133, 19);
   final Color _textBackground = Colors.amberAccent;
   final Color _blueAccent = Colors.blueAccent;
+  final Color _floatingActionButton = Colors.indigoAccent;
 }
 
 // Theme içinde kullanılacak fontSize'larin tanımlanması

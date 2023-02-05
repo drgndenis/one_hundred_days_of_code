@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:one_hundred_days_of_flutter/Day-11/theme/light_theme.dart';
 import 'Day-14/form_learn_view.dart';
-import 'Day-14/state_manage/state_manage_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
